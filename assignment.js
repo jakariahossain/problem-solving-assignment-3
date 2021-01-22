@@ -2,7 +2,7 @@
 function kilometerToMeter(getMeter) {
   var meter = 1000;
   if (getMeter < 0) {
-    var noResult = "You can't put any Minus value Here";
+    var noResult = "You can't put Minus value Here";
     return noResult;
   } else {
     var result = getMeter * meter;
@@ -71,7 +71,7 @@ function megaFriend(arr) {
     }
     return longestFriendName;
   } else {
-    return "You are not authorized to put other values except array";
+    return "You are not allow to put other values except array";
   }
 }
 var megaFriendList = ["Zamal", "Salam", "Meganfox", "Kamalaharis", "Alamgir"];
