@@ -35,7 +35,8 @@ console.log(budgetCalculator(2, 3, 3));
 function hotelCost(days) {
   var totalRent = 0;
   if (days < 0) {
-    return "You Can't Put minus days here";
+    var noResult = "You Can't Put minus days here";
+    return noResult;
   } else if (days >= 1 && days <= 10) {
     rentFirstTenDays = days * 100;
     totalRent = totalRent + rentFirstTenDays;
@@ -71,7 +72,8 @@ function megaFriend(arr) {
     }
     return longestFriendName;
   } else {
-    return "You are not allow to put other values except array";
+    var noResult = "You are not allow to put other values except array";
+    return noResult;
   }
 }
 var megaFriendList = ["Zamal", "Salam", "Meganfox", "Kamalaharis", "Alamgir"];
